@@ -26,6 +26,6 @@ fi
 echo installing application with npm
 cd /var/www/
 sudo npm install
-export TESTFROMCODEDEPLOY=TESTE
+
 echo installing pm2
 sudo npm install pm2 -g
