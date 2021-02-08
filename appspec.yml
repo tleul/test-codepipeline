@@ -2,12 +2,12 @@ version: 0.0
 os: linux
 files:
     - source: /
-      destination: /var/www/html/WordPress
-hooks:
-    BeforeInstall:
-        - location: script/test.sh
-          timeout: 300
-          runas: root
+      destination: /home/reactcp
+# hooks:
+#     BeforeInstall:
+#         - location: script/test.sh
+#           timeout: 300
+#           runas: root
 #   AfterInstall:
 #     - location: scripts/change_permissions.sh
 #       timeout: 300
