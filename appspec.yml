@@ -9,7 +9,7 @@ hooks:
           timeout: 300
           runas: root
     AfterInstall:
-        - location: scripts/react_build.sh
+        - location: script/react_build.sh
           timeout: 300 d
           runas: root
 #   ApplicationStart:

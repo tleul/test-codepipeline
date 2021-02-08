@@ -8,7 +8,7 @@
 # echo installing dependencies
 cd /home/reactcp
 sudo npm install
-sudo npm run build 
+
 
 # sudo apt-get update
 # curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
