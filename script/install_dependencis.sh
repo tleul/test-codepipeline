@@ -7,8 +7,8 @@
 # here we update the server and install node and npm
 # echo installing dependencies
 cd /home/reactcp
-npm install
-npm run build 
+sudo npm install
+sudo npm run build 
 
 # sudo apt-get update
 # curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
